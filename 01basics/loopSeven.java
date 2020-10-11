@@ -26,8 +26,6 @@ public class loopSeven {
 		System.out.println("Все делители числа: " + x);
 		for(int i = 2; i < x; i++) {
 			if (x == 2) break;
-
-
 			if (x % i == 0) {
 				System.out.println("  "+i);
 			}
